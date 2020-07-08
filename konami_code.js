@@ -23,8 +23,10 @@ function init() {
       else if (i >= 0 && event === codes[i + 1]){
         keys.push(event)
       }
-      return keys = []
-      
+      else {
+        keys = []
+      }
+
     }
   },{
     capture: false
