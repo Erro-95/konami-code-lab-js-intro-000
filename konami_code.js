@@ -15,7 +15,6 @@ function init() {
   document.body.addEventListener('keydown', event => {
     console.log(event)
   },{
-    capture: false,
-    once: true
+    capture: false
   })
 }
