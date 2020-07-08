@@ -21,7 +21,7 @@ function init() {
         continue;
       }
       console.log(correctSeq)
-      else correctSeq = []
+      //else correctSeq = []
     }
 
     if (correctSeq.length === codes.length){
