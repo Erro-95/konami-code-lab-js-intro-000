@@ -16,12 +16,10 @@ function init() {
   document.body.addEventListener('keydown', event => {
     correctSeq.push(event.key)
 
-
     for (let i in correctSeq){
-      if (correctSeq[i] === codes[i]){
-        continue;
+      if (correctSeq[i] !== codes[i]){
+        correctSeq = []
       }
-      else correctSeq = []
     }
 
     if (correctSeq.length === codes.length){
