@@ -16,7 +16,7 @@ function init() {
     var keys = [];
     //keys.push(event)
 
-    for (let i = keys.length - 1; i < codes.length){
+    for (let i = keys.length - 1; i < codes.length;){
       if (i === -1 && event === codes[0]){
         keys.push(event)
       }
