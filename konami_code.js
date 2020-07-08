@@ -10,10 +10,10 @@ const codes = [
   "b",
   "a"
 ];
+var correctSeq = [];
 
 function init() {
   document.body.addEventListener('keydown', event => {
-    var correctSeq = [];
     correctSeq.push(event.key)
     console.log(correctSeq)
     
