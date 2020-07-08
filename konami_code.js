@@ -13,7 +13,7 @@ const codes = [
 
 function init() {
   document.body.addEventListener('click', event => {
-    console.log('test')
+    console.log(event)
   },{
     capture: false
   })
