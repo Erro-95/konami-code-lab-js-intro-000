@@ -22,7 +22,7 @@ function init() {
       }
     }
 
-console.console.log(correctSeq);
+console.log(correctSeq);
     if (correctSeq.length === codes.length){
       alert('Congratulations!!')
       correctSeq = []
