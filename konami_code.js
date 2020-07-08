@@ -28,7 +28,6 @@ function init() {
       alert('Congratulations!!')
       correctSeq = []
     }
-    console.log(correctSeq)
     },{
     capture: false
   })
