@@ -15,7 +15,7 @@ var correctSeq = [];
 function init() {
   document.body.addEventListener('keydown', event => {
     correctSeq.push(event.key)
-    console.log(correctSeq)
+
 
     for (let i in correctSeq){
       if (correctSeq[i] === codes[i]){
@@ -28,6 +28,7 @@ function init() {
       alert('Congratulations!!')
       correctSeq = []
     }
+    console.log(correctSeq)
     },{
     capture: false
   })
