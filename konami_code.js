@@ -12,7 +12,7 @@ const codes = [
 ];
 
 function init() {
-  document.body.addEventListener('click', event => {
+  document.body.addEventListener('keydown', event => {
     console.log(event)
   },{
     capture: false
