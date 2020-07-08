@@ -20,9 +20,9 @@ function init() {
       if (correctSeq[i] === codes[i]){
         continue;
       }
+      console.log(correctSeq)
       else correctSeq = []
     }
-    console.log(correctSeq)
 
     if (correctSeq.length === codes.length){
       alert('Congratulations!!')
