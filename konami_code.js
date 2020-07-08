@@ -16,17 +16,16 @@ function init() {
     var correctSeq = [];
     correctSeq.push(event.key)
 
-    for (let i in correctSeq){
-      if (correctSeq[i] === codes[i]){
-        continue;
-      }
-      console.log(correctSeq)
-      //else correctSeq = []
-    }
-
-    if (correctSeq.length === codes.length){
-      alert('Congratulations!!')
-    }
+    // for (let i in correctSeq){
+    //   if (correctSeq[i] === codes[i]){
+    //     continue;
+    //   }
+    //   else correctSeq = []
+    // }
+    //
+    // if (correctSeq.length === codes.length){
+    //   alert('Congratulations!!')
+    // }
     },{
     capture: false
   })
