@@ -14,7 +14,7 @@ const codes = [
 function init() {
   document.body.addEventListener('keydown', event => {
     var correctSeq = [];
-    correctSeq.push(event)
+    correctSeq.push(event.key)
 
     for (let i in correctSeq){
       if (correctSeq[i] === codes[i]){
