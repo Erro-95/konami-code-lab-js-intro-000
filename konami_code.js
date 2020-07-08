@@ -27,6 +27,9 @@ function init() {
         keys = []
       }
 
+      if (keys.length === codes.length){
+        console.log(keys)
+      }
     }
   },{
     capture: false
