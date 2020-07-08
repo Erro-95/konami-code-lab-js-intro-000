@@ -26,6 +26,7 @@ function init() {
 
     if (correctSeq.length === codes.length){
       alert('Congratulations!!')
+      correctSeq = []
     }
     },{
     capture: false
